@@ -42,7 +42,7 @@ function setup() {
   trex.addAnimation("collided", trex_colidiu);
   trex.scale = 0.5;
   
-  solo = createSprite(width/2,height-20,width,200);
+  solo = createSprite(width/2,height,width,200);
   solo.addImage("ground",imagemDoSolo);
   solo.x = solo.width /2;
   solo.velocityX = -(6 + 3*pontuacao/100);
