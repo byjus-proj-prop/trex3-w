@@ -3,7 +3,7 @@ var ENCERRAR = 0;
 var estadoJogo = JOGAR;
 
 var trex, trex_correndo, trex_colidiu;
-var solo, soloInvisivel, imagemDoSolo;
+var bg,solo, soloInvisivel, imagemDoSolo;
 
 var grupoDeNuvens, imagemDaNuvem;
 var grupodeobstaculos, obstaculo1, obstaculo2, obstaculo3, obstaculo4, obstaculo5, obstaculo6;
@@ -17,7 +17,7 @@ var fimDeJogo, reiniciar;
 function preload(){
   trex_correndo =   loadAnimation("trex1.png","trex3.png","trex4.png");
   trex_colidiu = loadAnimation("trex_collided.png");
-  
+  bg = loadImage("bg.png")
   imagemDoSolo = loadImage("ground2.png");
   
   imagemDaNuvem = loadImage("cloud.png");
