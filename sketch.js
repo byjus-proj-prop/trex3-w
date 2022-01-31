@@ -70,7 +70,7 @@ function setup() {
 
 function draw() {
   //trex.debug = true;
-  background(140);
+  background(bg);
   trex.x=camera.position.x-250;
   text("Pontuação: "+ pontuacao, width-125,50);
   
